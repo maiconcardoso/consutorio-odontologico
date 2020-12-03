@@ -1,0 +1,510 @@
+/*RESET*/
+*{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:300;
+	box-sizing:border-box;
+	outline: none;
+}
+a{
+	text-decoration:none;
+}
+/*CABEÇALHO*/
+header{
+	background:white;
+	text-align:center;
+	padding:4% 4%;
+}
+
+/*icones*/
+.icone{
+	display:inline-block;
+	padding:4% 3%;
+	margin:2px 0;
+}
+.icone i{
+	margin:3px;
+}
+.icone p{
+	margin-top:10px;
+}
+.icone-facebook{
+	color:white;
+	text-align:center;
+}
+.icone-twitter{
+	color:white;
+	text-align:center;
+}
+.icone-google{
+	color:white;
+	text-align:center;
+}
+.telefone{
+	font-weight:bold;
+	color:gray;
+	padding:5px;
+	font-size:1.2em;
+	vertical-align: middle;
+}
+.telefone .icone-telefone-top{
+	display:none;
+}
+
+/*menu*/
+.fundo-menu{
+	background:#3366FF;
+	text-align:center;
+	padding:2% 4%;
+}
+.menu{
+	text-align:center;
+	padding:3% 4%;
+	margin-top:3%;
+		display:none;
+}
+.caixa-btn{
+	border-bottom:0.3px solid rgba(255,255,255,0.2);
+	padding-bottom:3%;
+	margin-bottom:-6px;
+}
+.btn-menu{
+	font-size:1em;
+	padding:2.5% 7%;
+	color:#D1241D;
+	cursor:pointer;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	margin-bottom:6%;
+	border-bottom:1px dashed white;
+	cursor:pointer;
+	padding:0 0 6%;
+}
+.menu ul li a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#fff;
+	font-size:1em;
+	font-weight:bold;
+}
+/*BANNER*/
+.banner img{
+	width:100%;
+	text-align:center;
+}
+/*CONTAINER*/
+.container{
+	background:#fff url(http://www.implanteinga.com.br/img/bg_aclinica.png) center top no-repeat;
+}
+
+/*FOTOS CLINICA*/
+#clinica{
+	text-align:center;
+	padding:20px;
+	position:relative;
+}
+#clinica h2{
+	font-size:1.8em;
+	font-weight:bold;
+	color:#000066;
+	padding-bottom:30px;
+}
+.fotos-clinica{
+	width:90%;
+	height:187px;
+	margin:auto;
+	overflow:scroll;
+	overflow:hidden;
+}
+
+.fotos-clinica img{
+	display:inline-block;
+	margin:0 6px;
+}
+/*QUEM SOMOS*/
+
+.quem-somos{
+	text-align:center;
+	padding:10px;
+	line-height:20px;
+	overflow-y:scroll;
+	height:500px;
+	margin:0 20px;
+}
+.quem-somos h2{
+	font-size:1.3em;
+	font-weight:bold;
+	color:#000066;
+	margin-bottom:8px;
+}
+.quem-somos p{
+	color:#444;
+	font-size:14px;
+}
+.perfil{
+	text-align:center;
+}
+.perfil h3{
+	font-size:0.9em;
+	font-weight:bold;
+	margin-top:20px;
+	color:#000066;
+}
+.perfil p{
+	margin-bottom:30px;
+}
+
+/*TRATAMENTOS*/
+#tratamentos{
+	text-align:center;
+	background:#3366FF;
+	color:white;
+}
+.fotos-tratamentos{
+	width:90%;
+	height:193px;
+	margin:0 auto;
+	overflow:scroll;
+	overflow:hidden;
+}
+#tratamentos img{
+	border-radius:5px;
+	margin:0 6px;
+	cursor:pointer;
+}
+#tratamentos h2{
+	font-size:1.8em;
+	font-weight:bold;
+	padding:30px;
+}
+#tratamentos h3{
+	font-size:1.5em;
+	font-weight:bold;
+	padding-top:20px;
+	padding-left:10px;
+	text-align:left;
+}
+#tratamentos p{
+	font-size:14px;
+	text-align:left;
+	padding:10px;
+}
+#tratamentos .tratamentos-textos{
+	overflow-y:scroll;
+	overflow:hidden;
+	height:200px;
+}
+
+/*VIDEOS*/
+#videos{
+	background:#fff;
+	text-align:center;
+}
+#videos h2{
+	font-size:1.8em;
+	font-weight:bold;
+	color:#000066;
+	padding:40px;
+}
+#videos iframe{
+	width:90%;
+	padding:10px;
+	height:250px;
+	padding-bottom:20px;
+}
+
+/*NOTICIAS*/
+#noticias{
+	background:#ddd url(http://www.implanteinga.com.br/img/bg_noticias.png) center top no-repeat;
+	text-align:center;
+}
+#noticias h2{
+	font-size:1.8em;
+	font-weight:bold;
+	color:#000066;
+	padding:25px;
+}
+.fotos-noticias{
+	position:relative;
+	padding-bottom:50px;
+}
+#noticias img{
+	width:185px;
+	border-radius:5px;
+}
+#noticias figcaption{
+	display:none;
+}
+
+/*FORMULARIO*/
+#formulario{
+	text-align:center;
+	background:#3366FF;
+	padding:30px 15px ;
+}
+#formulario h2{
+	color:white;
+	font-size:1.8em;
+	font-weight:bold;
+	padding-bottom:30px;
+}
+#formulario label input{
+	margin-bottom:15px;
+	width:100%;
+	padding:15px;
+	border-radius:10px;
+	border:none;
+	font-size:14px;
+}
+#formulario textarea{
+	width:100%;
+	border-radius:10px;
+	font-size:14px;
+	padding:15px;
+	height:145px;
+	border:none;
+}
+.button{
+	padding:10px 30px;
+	background:#FFC926;
+	color:#4C1F26;
+	border:none;
+	border-radius:10px;
+	font-weight:bold;
+	margin:35px 0 20px 0;
+	cursor:pointer;
+}
+
+/*CONTATO*/	
+#mapa-contato{
+	text-align:center;
+	padding:20px;
+	padding-bottom:30px;
+}
+#mapa-contato h3{
+	font-size:1.6em;
+	font-weight:bold;
+	color:#000066;
+}
+#mapa-contato .contato{
+	padding:10px;
+}
+#mapa-contato .contato p{
+	color:#4C1F26;
+	padding:2px;
+}
+#mapa-contato .contato p span{
+	color:gray;
+	font-weight:bold;
+}
+#mapa-contato iframe{
+	padding-top:20px;
+	width:100%;
+	height:300px;
+}
+#mapa-contato .endereco{
+	padding:5px;
+	margin-top:10px;
+	text-align:left;
+	font-size:1.2em;
+	color:#777;
+}
+
+/*RODAPE*/
+.rodape{
+	text-align:center;
+	font-size:14px;
+	color:white;
+	background:#3366FF;
+	padding:20px 0;
+}
+.rodape p{
+	padding:10px 0;
+}
+
+
+/*MIDIA QUERES*/
+
+/*768px*/
+
+@media screen and (min-width:768px){
+	header{
+		padding-bottom:150px;
+	}
+	h1 img{
+		float:left;
+	}
+	.icone{
+		float:right;
+	}
+	.telefone .icone-telefone-top{
+		display:inline-block;
+		vertical-align:middle;
+		margin-right:5px;
+	}
+	.fundo-menu{
+		padding:0;
+		clear:both;
+		margin-top:0;
+		display:block;
+	}
+	.fundo-menu .caixa-btn{
+		border:none;
+		margin:0;
+		padding:0;
+	}
+	.btn-menu{
+		display:none;
+	}
+	.menu-superior{
+		display:inline-block;
+		margin:0;
+		text-align:left;
+		clear:both;
+		padding:0;
+	}
+	.menu ul{
+		margin:0;
+		padding:0;
+	}
+	.menu ul li{
+		display:inline-block;
+		padding:40px 5px;
+		margin:0;
+		border:none;
+	}
+	.menu ul li:hover{
+		background:rgba(0,0,0,0.3);
+	}
+	.menu ul li a{
+		font-size:15px;	
+	}
+
+	.quem-somos{
+		text-align:left;
+	}
+	.perfil img{
+		float:left;
+		padding-right:10px;
+		padding-bottom:40px;
+	}
+	.perfil{
+		float-left;
+		text-align:left;
+	}
+	#videos iframe{
+		height:400px;
+	}
+	#formulario{
+		text-align:center;
+	}
+	#formulario label input{
+		width:45%;
+		margin-left:10px;
+		margin-right:10px;
+	}
+	#formulario textarea{
+		width:93%;
+	}
+	.contato{
+		display:inline-block;
+		text-align:initial;
+		margin:40px 0;
+	}
+	.contato img, .cod-contato{
+		display:inline-block;
+	}
+}
+
+
+/*980px*/
+@media screen and (min-width:980px){
+	header{
+		clear:both;
+	}
+	.menu ul li{
+		padding-right:20px;
+		padding-left:20px;
+	}
+	#videos iframe{
+		width:750px;
+		height:450px;
+	}
+}
+
+/*1265px*/
+@media screen and (min-width:1265px){
+	header{
+		clear:both;
+		padding-bottom:170px;
+	}
+}
+
+/*1280px*/
+@media screen and (min-width:1280px){
+	header{
+		clear:both;
+		padding-top:35px;
+		padding-bottom:130px;
+	}
+	header h1 a {
+		margin-left:150px;
+		padding-top:0;
+		margin-top:0;
+	}
+	header h1 img{
+		margin-bottom:5px;
+		padding-bottom:5px;
+		margin-left:150px;
+		padding-top:0;
+		margin-top:0;
+	}
+	header .icone{
+		margin-bottom:5px;
+		padding-bottom:5px;
+		margin-right:150px;
+		padding-top:5px;
+	}
+	.menu ul li{
+		padding-right:30px;
+		padding-left:30px;
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	.quem-somos{
+		width:1200px;
+		margin:0 auto;
+	}
+	#tratamentos .conteudo-tratamentos{
+		width:1200px;
+		margin:0 auto;
+		padding-bottom:30px;
+	}
+	#formulario form{
+		width:1200px;
+		margin:0 auto;
+	}
+	#formulario label input{
+		padding:20px;
+	} 
+	#formulario textarea{
+		width:92%;
+	}
+	#mapa-contato .contato{
+		padding-right:90px;
+		padding-left:90px;
+	}
+	#mapa-contato iframe{
+		width:1200px;
+		height:550px;
+		margin:0 auto;
+	}
+	.endereco{
+		margin-left:150px;
+	}
+}
